@@ -138,15 +138,3 @@ if __name__ == "__main__":
     from kanji_list import diction
     myapp.bind("<q>", quit)
     myapp.mainloop()
-
-# from PIL import Image
-# import os
-# path = "F:\\PROJECT\\VScode_projects\\python\\study\\japanese_quiz\\pics"
-# count = 0
-# for i in os.listdir("F:\\PROJECT\\VScode_projects\\python\\study\\japanese_quiz\\pics\\"):
-#   print(os.path.join(path, i))
-#   if not i.endswith("png") or not i.endswith("gif"):
-#     img = Image.open(os.path.join(path, i))
-#     img.save(os.path.join(f"{path}", f"..\\new_pics\\output{count}.png"), "PNG")
-#     count += 1
-#     print("image converted")
